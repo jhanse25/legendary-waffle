@@ -8,6 +8,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'jquery-ui-rails'
+gem 'bcrypt-ruby'
 gem 'sdoc', group: :doc
 
 group :development, :test do
