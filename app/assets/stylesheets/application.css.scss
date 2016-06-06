@@ -16,11 +16,11 @@
  */
 
 #banner {
-  background: #9c9;
+  background:#f2f2f2;
   padding: 10px;
   border-bottom: 2px solid;
-  font: small-caps 40px/40px "Times New Roman", serif;
-  color: #282;
+  font: small-caps 40px/40px "Algerian", serif;
+  color: blue;
   text-align: center;
 
   img {
@@ -38,7 +38,7 @@
 }
 
 #columns {
-  background: #141;
+  background: #b3d9ff;
 
   #main {
     margin-left: 17em;
@@ -51,7 +51,7 @@
     float: left;
     padding: 1em 2em;
     width: 13em;
-    background: #141;
+    background: #b3d9ff;
 
     form, div {
       display: inline;
@@ -79,9 +79,12 @@
         list-style: none;
 
         a {
-          color: #bfb;
+          color: black;
           font-size: small;
         }
+        a:hover { 
+          background-color: yellow;
+        }  
       }
     }
   }
